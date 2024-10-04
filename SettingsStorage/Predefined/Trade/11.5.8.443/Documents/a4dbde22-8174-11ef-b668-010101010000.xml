@@ -1,0 +1,72 @@
+﻿<CatalogObject.SUI_НастройкиДокументовОбмена xmlns="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogObject.SUI_НастройкиДокументовОбмена">
+	<Ref>a4dbde22-8174-11ef-b668-010101010000</Ref>
+	<DeletionMark>false</DeletionMark>
+	<Description>Акт выполненных работ для клиента</Description>
+	<Используется>true</Используется>
+	<ИмяМетаданныхДокумента>АктВыполненныхРабот</ИмяМетаданныхДокумента>
+	<СинонимМетаданныхДокумента>Акт выполненных работ для клиента</СинонимМетаданныхДокумента>
+	<СоздаватьДокументОбменаПриЗаписиДокумента1С>false</СоздаватьДокументОбменаПриЗаписиДокумента1С>
+	<СостояниеПоУмолчанию>Новый</СостояниеПоУмолчанию>
+	<КонтролироватьДокумент>false</КонтролироватьДокумент>
+	<ГрупповоеСканирование>false</ГрупповоеСканирование>
+	<ЗагружатьВДокумент1СПослеОбмена>false</ЗагружатьВДокумент1СПослеОбмена>
+	<ПроводитьДокумент>false</ПроводитьДокумент>
+	<Комментарий/>
+	<ХранилищеСхемыКомпоновкиДанных>AgFTS2/0iI3BTqDV67a9oKcN5VVNTxNBGBY9mG7Cf9isiQfD7nRbkFK3y0FDYoIH
+Axqvy+wUNml36860pSEkUmM89KIogQtGPZngAU1ItAj8hXf/g3f/gu/utLR8WBAS
+L/ZjOjt9vubdedv7V+Tj1+7BknZDG3FpZqKYGxvXi3S0qI9S19SdceroLMfGzWJ2
+YmxsLjsyrCyll5MxHsxkmlkeVuJXLPbz2qGoNblYLqk1FnIv8AuaaaQ1lfk0cD1/
+vqA9mp3Sc9qkPaxYM3SBlZ0pr8RUZPi8oGlykl/E+YIQlTwh9XrdqGeNIJwnmXTa
+JE8eTEteD+udDdY9nwvHp0xD45TlOsK5G5QrAfcEhpSYboiOVi1nmNQIqwQ/SUzQ
+aY+h8wYXrEy4jBKLStWZoBpSllynLN8pMxs2opWoCfvRS9iDb9CGt7CNs72oFb0w
+LZJgJLzHn21UmD0dUKdkkWOriRM5ZiWpTKhYjLxAWEG7J1ceVlnY0I7k2UT/L5jn
+2XmSnBX/xJ6fxoY2rMIWvIb38Ao+wmc1mazjuAaf8L2Jzy1YU1K3FNiAdSWFovvQ
+jp7DD9hB6aaB8Da6rkYtOMCvdtFxp+uKMnIDTQXeIBN14AOGbCGsDdtqQb3plCt3
++tcsImP1FY8JecWZEHgw+WMn9Bxf9FXqQueho6bZ8C5awcT78DUZvx+pbyVknPnC
+iamXsum74Ys8z0WIq6d59xt2qnDKxmVpTjRG3Kuk16z2EPb57asX6PeO4yV3nHS9
+SzkNwr/TQALr8rlolNif6aTqkQRyiG/wwehi4AtOpFOXVMsN4PSnqeWq3kD5LrDO
+5gbHoEEpCDlB3CHF889H8Xw3qPN/8BNM7PjwXB/6n/8xyPGm+g0=</ХранилищеСхемыКомпоновкиДанных>
+	<ХранилищеНастроекОтбораДокументов>AgFTS2/0iI3BTqDV67a9oKcNlZJNT4MwHIeNty3ZdyD1OiiMMXFhW7xoTDQe0MQr
+K93WBFrSFhhZ9sk8+JG8ebaAMM0UtZc27fP8+vZ3Tur2+vyyA2dgaKPz0WrlTPRz
+bI71se06+hKZtn4xCsfLcIJsx0LDQX9n7gf9fSm+nbYB3mIbR1qGuSCMzoBlmEDD
+FLGQ0PUMPD5c6S5YzAd9z8dSqjmhKZ6KGdhImUwhzFzDQgZPoephGMhARyxOmCBS
+5emiEBLHUHy4oJanIRKI8f9lKAE3vpBFhH/WYUpghbR8IbrpFaNSwHqnRsrcDufz
+aTI3JZ3xDZjjZfcxEIsYF1BxrULo3xRCQ5a3D7w93DfPcyO3DcbXcGSaFny6u/XR
+BsfBgSW/wzqhQgYUYaBqoecR9U6aEqeySNRH+JKnSKYc36j5a87SpMJ6HuMh5tXw
+yLkvl0r+MpUMwJqHB8ETOMKorIDvfb9axuFRxBfPg6VW1i9sCnj+Dg==</ХранилищеНастроекОтбораДокументов>
+	<ХранилищеНастроекРеквизитовДокумента>AgFTS2/0iI3BTqDV67a9oKcNlZJNT4MwHIeNty3ZdyD1OiiMMXFhW7xoTDQe0MQr
+K93WBFrSFhhZ9sk8+JG8ebaAMM0UtZc27fP8+vZ3Tur2+vyyA2dgaKPz0WrlTPRz
+bI71se06+hKZtn4xCsfLcIJsx0LDQX9n7gf9fSm+nbYB3mIbR1qGuSCMzoBlmEDD
+FLGQ0PUMPD5c6S5YzAd9z8dSqjmhKZ6KGdhImUwhzFzDQgZPoephGMhARyxOmCBS
+5emiEBLHUHy4oJanIRKI8f9lKAE3vpBFhH/WYUpghbR8IbrpFaNSwHqnRsrcDufz
+aTI3JZ3xDZjjZfcxEIsYF1BxrULo3xRCQ5a3D7w93DfPcyO3DcbXcGSaFny6u/XR
+BsfBgSW/wzqhQgYUYaBqoecR9U6aEqeySNRH+JKnSKYc36j5a87SpMJ6HuMh5tXw
+yLkvl0r+MpUMwJqHB8ETOMKorIDvfb9axuFRxBfPg6VW1i9sCnj+Dg==</ХранилищеНастроекРеквизитовДокумента>
+	<АлгоритмПередЗаписью/>
+	<АлгоритмПослеЗаписи/>
+	<НастройкиТаблиц>
+		<КлючСвязи>2bdab55f-05a6-4535-9b75-e613e0d18fee</КлючСвязи>
+		<ТипТаблицы>Товары</ТипТаблицы>
+		<ИмяТабличнойЧасти>Услуги</ИмяТабличнойЧасти>
+		<ПропускатьНеЗаполненные>false</ПропускатьНеЗаполненные>
+		<ХранилищеНастроекРеквизитовТаблицы>AgFTS2/0iI3BTqDV67a9oKcN1ZbBbtMwGMc5skp9hypclzht2q1UbieENIQEAqlM
+4po67mopjSvbaVdNk9h24ILEHQlxgAeYhiqqlY1XcJ6EV8Cpk7QdXTcQaJBL/Nn/
+//f98sWOUrmjr++Tb/vGPWPdQZuldruyYW5iu2yWnWrFbCHbMe+XvHLL20BOpYjW
+87l9+yCfO4iN7G6WAG7tdf1CHzNOaFA3ipZtFHCAqEeC3bqx82LbrBpbjXwONrEQ
+ao4XlD7gdaMjRK8GQL9qFZHFQqDuwHOFayLa7VFOhMpn8iEXuAt44jW0ueYhjij7
+tRzKgFM/F0MfX20HIQFTSaYf8tXqNg0EB7pSaupXV3jmafrVkKxMnwoHuLUaA1Gf
+Mg6ULrOQ4GYWEnh0kDV4b/a8g8HAGjgWZbugZNtF8PLpkybq4K4705LrxSYJuHAD
+hA21F9ZgyDHbJtj3eByuQaL6VlCJamLYUy9mJ11+6HLtUJqY+LkrOg35QV7ISfRG
+flH3U3kSHclRHEeH8kyO1Vivv7X0QI6KEGRmnUsQ4WOQBEgV0RwJSTJeg23iC8xA
+FvddP8RznHof1qaoRkN+VAST6Fh+lmNLvle1vyqYcwU1iSGj4+iVPIFgmiQtB2b1
+IJiBzM3/5d6UbqM376a1x9FrOYoOFeKpvPjX+uL8p32BYPFsQY59jOIP4dKuNaer
+2HusphMknbwdB7911LRzrmeNq8+CXr/mzf5pxtJSxiW9VwZFK89vidO5MecnRXkW
+HS3nhGBhC/xELViIRMhwjP2I0bCnsSFlHmZJ7UueZ/FSrH8QCmqApODMcGnTrezU
+QopF0vQRIEh/Hho/AA==</ХранилищеНастроекРеквизитовТаблицы>
+		<АлгоритмОбработкиСтрокЗагрузкиДанных/>
+	</НастройкиТаблиц>
+	<НастройкиИдентификацииСтрок>
+		<КлючСвязи>2bdab55f-05a6-4535-9b75-e613e0d18fee</КлючСвязи>
+		<Реквизит>КлючСвязи</Реквизит>
+	</НастройкиИдентификацииСтрок>
+</CatalogObject.SUI_НастройкиДокументовОбмена>
