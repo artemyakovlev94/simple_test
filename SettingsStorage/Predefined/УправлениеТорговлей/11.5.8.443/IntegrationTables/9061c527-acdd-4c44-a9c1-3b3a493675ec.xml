@@ -1,0 +1,107 @@
+﻿<Structure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Structure">
+	<Property name="ТаблицаИнтеграции">
+		<Value xmlns:d3p1="http://v8.1c.ru/8.1/data/enterprise/current-config" xsi:type="d3p1:EnumRef.SUI_ТаблицыИнтеграции">Склады</Value>
+	</Property>
+	<Property name="ИмяОбъекта">
+		<Value xsi:type="xs:string">Справочник.АвансовыйОтчетПрисоединенныеФайлы</Value>
+	</Property>
+	<Property name="ОсновнойОбъект">
+		<Value xsi:type="xs:boolean">false</Value>
+	</Property>
+	<Property name="Используется">
+		<Value xsi:type="xs:boolean">true</Value>
+	</Property>
+	<Property name="СхемаКомпоновкиДанных">
+		<Value xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xsi:type="dcssch:DataCompositionSchema">
+			<dcssch:dataSource>
+				<dcssch:name>ИсточникДанных1</dcssch:name>
+				<dcssch:dataSourceType>Local</dcssch:dataSourceType>
+			</dcssch:dataSource>
+			<dcssch:dataSet xsi:type="dcssch:DataSetQuery">
+				<dcssch:name>НаборДанных1</dcssch:name>
+				<dcssch:dataSource>ИсточникДанных1</dcssch:dataSource>
+				<dcssch:query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	АвансовыйОтчетПрисоединенныеФайлы.Ссылка КАК Ссылка,
+	АвансовыйОтчетПрисоединенныеФайлы.ВерсияДанных КАК ВерсияДанных,
+	АвансовыйОтчетПрисоединенныеФайлы.ПометкаУдаления КАК ПометкаУдаления,
+	АвансовыйОтчетПрисоединенныеФайлы.Родитель КАК Родитель,
+	АвансовыйОтчетПрисоединенныеФайлы.ЭтоГруппа КАК ЭтоГруппа,
+	АвансовыйОтчетПрисоединенныеФайлы.Наименование КАК Наименование,
+	АвансовыйОтчетПрисоединенныеФайлы.Автор КАК Автор,
+	АвансовыйОтчетПрисоединенныеФайлы.ВладелецФайла КАК ВладелецФайла,
+	АвансовыйОтчетПрисоединенныеФайлы.ДатаЗаема КАК ДатаЗаема,
+	АвансовыйОтчетПрисоединенныеФайлы.ДатаМодификацииУниверсальная КАК ДатаМодификацииУниверсальная,
+	АвансовыйОтчетПрисоединенныеФайлы.ДатаСоздания КАК ДатаСоздания,
+	АвансовыйОтчетПрисоединенныеФайлы.Зашифрован КАК Зашифрован,
+	АвансовыйОтчетПрисоединенныеФайлы.Изменил КАК Изменил,
+	АвансовыйОтчетПрисоединенныеФайлы.ИндексКартинки КАК ИндексКартинки,
+	АвансовыйОтчетПрисоединенныеФайлы.Описание КАК Описание,
+	АвансовыйОтчетПрисоединенныеФайлы.ПодписанЭП КАК ПодписанЭП,
+	АвансовыйОтчетПрисоединенныеФайлы.ПутьКФайлу КАК ПутьКФайлу,
+	АвансовыйОтчетПрисоединенныеФайлы.Размер КАК Размер,
+	АвансовыйОтчетПрисоединенныеФайлы.Расширение КАК Расширение,
+	АвансовыйОтчетПрисоединенныеФайлы.Редактирует КАК Редактирует,
+	АвансовыйОтчетПрисоединенныеФайлы.СтатусИзвлеченияТекста КАК СтатусИзвлеченияТекста,
+	АвансовыйОтчетПрисоединенныеФайлы.ТекстХранилище КАК ТекстХранилище,
+	АвансовыйОтчетПрисоединенныеФайлы.ТипХраненияФайла КАК ТипХраненияФайла,
+	АвансовыйОтчетПрисоединенныеФайлы.Том КАК Том,
+	АвансовыйОтчетПрисоединенныеФайлы.ФайлХранилище КАК ФайлХранилище,
+	АвансовыйОтчетПрисоединенныеФайлы.ХранитьВерсии КАК ХранитьВерсии,
+	АвансовыйОтчетПрисоединенныеФайлы.УдалитьЭлектронныеПодписи.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ДатаПодписи КАК ДатаПодписи,
+		ИмяФайлаПодписи КАК ИмяФайлаПодписи,
+		Комментарий КАК Комментарий,
+		КомуВыданСертификат КАК КомуВыданСертификат,
+		Отпечаток КАК Отпечаток,
+		Подпись КАК Подпись,
+		УстановившийПодпись КАК УстановившийПодпись,
+		Сертификат КАК Сертификат,
+		ДатаПроверкиПодписи КАК ДатаПроверкиПодписи,
+		ПодписьВерна КАК ПодписьВерна
+	) КАК УдалитьЭлектронныеПодписи,
+	АвансовыйОтчетПрисоединенныеФайлы.УдалитьСертификатыШифрования.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Отпечаток КАК Отпечаток,
+		Представление КАК Представление,
+		Сертификат КАК Сертификат
+	) КАК УдалитьСертификатыШифрования,
+	АвансовыйОтчетПрисоединенныеФайлы.Предопределенный КАК Предопределенный,
+	АвансовыйОтчетПрисоединенныеФайлы.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
+ИЗ
+	Справочник.АвансовыйОтчетПрисоединенныеФайлы КАК АвансовыйОтчетПрисоединенныеФайлы
+{ГДЕ
+	АвансовыйОтчетПрисоединенныеФайлы.Ссылка = &amp;Ссылка}</dcssch:query>
+			</dcssch:dataSet>
+			<dcssch:settingsVariant>
+				<dcsset:name>Основной</dcsset:name>
+				<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+				<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+			</dcssch:settingsVariant>
+		</Value>
+	</Property>
+	<Property name="НастройкиКомпоновкиДанных">
+		<Value xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xsi:type="dcsset:Settings">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+					<dcsset:title>id</dcsset:title>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Наименование</dcsset:field>
+					<dcsset:title>name</dcsset:title>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</Value>
+	</Property>
+</Structure>

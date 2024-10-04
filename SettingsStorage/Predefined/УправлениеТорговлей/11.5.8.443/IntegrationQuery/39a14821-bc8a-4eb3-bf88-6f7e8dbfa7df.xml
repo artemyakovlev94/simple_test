@@ -1,0 +1,11 @@
+﻿<FixedStructure xmlns="http://v8.1c.ru/8.1/data/core" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="FixedStructure">
+	<Property name="ТекстЗапроса">
+		<Value xsi:type="xs:string"/>
+	</Property>
+	<Property name="ВыполнятьВПакетномРежиме">
+		<Value xsi:type="xs:boolean">false</Value>
+	</Property>
+	<Property name="ПакетыРезультата">
+		<Value xsi:type="Array"/>
+	</Property>
+</FixedStructure>
