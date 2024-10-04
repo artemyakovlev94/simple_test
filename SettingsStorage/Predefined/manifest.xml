@@ -1,6 +1,6 @@
 ﻿<ManifestFile xmlns="http://www.migration-settings.simple" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ManifestFile">
 	<Date>2024-10-04T16:36:59</Date>
-	<Configuration HEX="2da54b9e34653a49a0aeeebc7b569729" Name="УправлениеТорговлей" NameEN="Trade" Synonym="Управление торговлей, редакция 11" Version="11.5.8.443" ExtensionVersion="1.0.4.1">
+	<Configuration HEX="2da54b9e34653a49a0aeeebc7b569729" Name="УправлениеТорговлей" NameEN="Trade" Synonym="Управление торговлей, редакция 11">
 		<Settings>
 			<Documents>
 				<Files ID="a4dbde22-8174-11ef-b668-010101010000" Key="a4dbde22-8174-11ef-b668-010101010000" Name="Акт выполненных работ для клиента"/>
